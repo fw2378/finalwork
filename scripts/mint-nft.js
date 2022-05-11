@@ -51,7 +51,8 @@ async function mintNFT(tokenURI) {
 }
 const tmp = Math.floor(Math.log2(2-Math.random())*3);
 
-var card=["ipfs://QmWmvTJmJU3pozR9ZHFmQC2DNDwi2XJtf3QGyYiiagFSWb",
-"ipfs://QmRMduXnc6tazMj1xw2ApNewJNGnuDFi7fkT7NnmXpHNWz",
-"ipfs://QmSgyEpsoYfiUouDheq5g27fCjyKaDxpd3QFstbBPEZFkd"]
+var card=["ipfs://QmSgyEpsoYfiUouDheq5g27fCjyKaDxpd3QFstbBPEZFkd",
+          "ipfs://QmRMduXnc6tazMj1xw2ApNewJNGnuDFi7fkT7NnmXpHNWz",
+          "ipfs://QmWmvTJmJU3pozR9ZHFmQC2DNDwi2XJtf3QGyYiiagFSWb"
+]
 mintNFT(card[tmp]);
